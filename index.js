@@ -9,7 +9,7 @@ function patchStream (resourceUrl) {
         request.patch(resourceUrl)
             .set('Content-Type', 'application/json-patch')
             .set('Accept', 'application/json')
-            .send(JSON.stringify(patch))
+            .send(JSON.stringify([patch]))
             .end(function (err, res) {
                 respond(err, res.body);
             })
