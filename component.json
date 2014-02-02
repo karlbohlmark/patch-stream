@@ -1,0 +1,14 @@
+{
+  "name": "patch-stream",
+  "repo": "karbohlmark/patch-stream",
+  "description": "Min stream sink, sending json patches",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
